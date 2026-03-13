@@ -1,0 +1,100 @@
+﻿
+======================================================================
+FILE: Daily Sales By Order Type.csv
+======================================================================
+Encoding=utf-8-sig, Skip=0, Shape=(5, 21)
+Columns: ['locationID', 'BillingDate', 'OrderType', 'Numberoftransactions', 'GrossAmount', 'NetAmount', 'VATAmount', 'ServiceCharge', 'GrossAmount1', 'Textbox13', 'Textbox49', 'Textbox50', 'Textbox51', 'Textbox23', 'Textbox28', 'Textbox14', 'Textbox40', 'Textbox41', 'VATAmount1', 'Textbox24', 'Textbox29']
+          locationID BillingDate OrderType  Numberoftransactions  GrossAmount  NetAmount  VATAmount  ServiceCharge  GrossAmount1  Textbox13   Textbox49   Textbox50  Textbox51  Textbox23   Textbox28  Textbox14   Textbox40   Textbox41  VATAmount1  Textbox24   Textbox29
+0  IRise Tower-Dubai  01/01/2024  Delivery                    23      1361.35    1296.52      64.83            0.0       1361.35     103213  2952602.49  2811975.72  140626.77        0.0  2952602.49     103213  2952602.49  2811975.72   140626.77        0.0  2952602.49
+1  IRise Tower-Dubai  01/01/2024    Eat In                    14       445.30     424.10      21.20            0.0        445.30     103213  2952602.49  2811975.72  140626.77        0.0  2952602.49     103213  2952602.49  2811975.72   140626.77        0.0  2952602.49
+2  IRise Tower-Dubai  01/01/2024  Take Out                    18       309.25     294.52      14.73            0.0        309.25     103213  2952602.49  2811975.72  140626.77        0.0  2952602.49     103213  2952602.49  2811975.72   140626.77        0.0  2952602.49
+
+======================================================================
+FILE: Daily Total Sales By Payment Type.csv
+======================================================================
+Encoding=utf-8-sig, Skip=0, Shape=(5, 41)
+Columns: ['textbox6', 'BillingDate', 'Numberoftransactions', 'GrossAmount', 'NetAmount', 'TotalVAT', 'Textbox21', 'Textbox34', 'Textbox62', 'Textbox46', 'Textbox53', 'Textbox25', 'Textbox26', 'Textbox27', 'Textbox28', 'Textbox22', 'Textbox35', 'Textbox70', 'Textbox30', 'Textbox31', 'Textbox32', 'Textbox33', 'Textbox23', 'Textbox36', 'Textbox78', 'Textbox10', 'Textbox11', 'Textbox12', 'Textbox13', 'Textbox24', 'Textbox37', 'Textbox87', 'Textbox39', 'Textbox40', 'Textbox41', 'Textbox42', 'Textbox43', 'Textbox44', 'Textbox96', 'Textbox50', 'Textbox57']
+     textbox6 BillingDate  Numberoftransactions  GrossAmount  NetAmount  TotalVAT  Textbox21  Textbox34  Textbox62  Textbox46  Textbox53  Textbox25  Textbox26  Textbox27  Textbox28  Textbox22  Textbox35  Textbox70  Textbox30  Textbox31  Textbox32  Textbox33  Textbox23  Textbox36  Textbox78  Textbox10  Textbox11  Textbox12  Textbox13  Textbox24  Textbox37  Textbox87  Textbox39   Textbox40   Textbox41  Textbox42  Textbox43   Textbox44   Textbox96  Textbox50  Textbox57
+0  Tax Amount  01/01/2024                    55      2115.90    2015.14    100.76     188.50     461.65    1465.75        NaN        0.0         14     445.30     424.10      21.20      91.50     260.60       93.2         18     309.25     294.52      14.73      97.00     201.05       11.2         23    1361.35    1296.52      64.83        0.0        0.0    1361.35     103213  2952602.49  2811975.72  140626.77  276181.89  1139703.08  1536717.52        NaN        0.0
+1  Tax Amount  01/02/2024                    92      2152.98    2050.46    102.52     327.93    1130.50     694.55        NaN        0.0         25     869.80     828.38      41.42     166.43     703.37        0.0         49     588.63     560.60      28.03     161.50     427.13        0.0         18     694.55     661.48      33.07        0.0        0.0     694.55     103213  2952602.49  2811975.72  140626.77  276181.89  1139703.08  1536717.52        NaN        0.0
+2  Tax Amount  01/03/2024                   108      2267.64    2159.66    107.98     391.02    1022.82     853.80        NaN        0.0         21     665.04     633.37      31.67     228.27     436.77        0.0         60     748.80     713.14      35.66     162.75     586.05        0.0         27     853.80     813.14      40.66        0.0        0.0     853.80     103213  2952602.49  2811975.72  140626.77  276181.89  1139703.08  1536717.52        NaN        0.0
+
+======================================================================
+FILE: Hourly Sales Avg Per Weekday.csv
+======================================================================
+Encoding=utf-8-sig, Skip=0, Shape=(5, 8)
+Columns: ['SalesDate', 'Hour1', 'textbox2', 'NoOfOrders', 'AvgTransValue', 'Textbox7', 'Textbox16', 'Textbox14']
+   SalesDate  Hour1  textbox2  NoOfOrders  AvgTransValue  Textbox7  Textbox16  Textbox14
+0     Monday      0     53.54         1.9          28.81    229.56        8.6      27.30
+1    Tuesday      0     97.59         2.2          45.50    222.95        8.4      26.85
+2  Wednesday      0     90.84         1.9          55.87    235.83        8.6      28.41
+
+======================================================================
+FILE: Hourly Sales.csv
+======================================================================
+Encoding=utf-8-sig, Skip=0, Shape=(5, 8)
+Columns: ['Hour', 'SalesDate', 'textbox2', 'NoOfOrders', 'AvgTransValue', 'Textbox7', 'Textbox16', 'AvgTransValue1']
+   Hour   SalesDate  textbox2  NoOfOrders  AvgTransValue  Textbox7  Textbox16  AvgTransValue1
+0     0  01/01/2024       NaN         NaN            NaN  24183.28        598           42.73
+1     1  01/01/2024       NaN         NaN            NaN    584.70         15           38.03
+2     2  01/01/2024       NaN         NaN            NaN    233.00          9           26.17
+
+======================================================================
+FILE: Product Sales By Order Type.csv
+======================================================================
+Encoding=utf-8-sig, Skip=0, Shape=(5, 17)
+Columns: ['Textbox8', 'locationID', 'BillingDate', 'Textbox22', 'Textbox27', 'Qty', 'NetAmount', 'VATAmount', 'GrossAmount', 'waste', 'OrderType', 'Textbox50', 'Textbox51', 'Textbox39', 'Textbox41', 'VATAmount1', 'Textbox40']
+   Textbox8         locationID BillingDate  Textbox22         Textbox27  Qty  NetAmount  VATAmount  GrossAmount waste OrderType   Textbox50  Textbox51   Textbox39   Textbox41  VATAmount1   Textbox40
+0       202  IRise Tower-Dubai  01/01/2024        NaN  Iced Karak Chaii    1       9.68       0.48        10.16    No  Delivery  2811975.72  140626.77  2952602.49  2811975.72   140626.77  2952602.49
+1       202  IRise Tower-Dubai  01/01/2024        NaN           Caramel    2       1.24       0.06         1.30    No  Delivery  2811975.72  140626.77  2952602.49  2811975.72   140626.77  2952602.49
+2       202  IRise Tower-Dubai  01/01/2024        NaN   Classic Paratha   14      22.93       1.15        24.07    No  Delivery  2811975.72  140626.77  2952602.49  2811975.72   140626.77  2952602.49
+
+======================================================================
+FILE: Sales By Category With Drill Down.csv
+======================================================================
+Encoding=utf-8-sig, Skip=0, Shape=(5, 17)
+Columns: ['Category', 'Quantity2', 'GrossAmount2', 'NetAmount2', 'Textbox51', 'SubCategory', 'Quantity', 'GrossAmount', 'NetAmount', 'Textbox7', 'ProductID', 'ProductDesc', 'Quantity1', 'GrossAmount1', 'NetAmount1', 'Textbox29', 'Textbox82']
+  Category  Quantity2  GrossAmount2  NetAmount2 Textbox51  SubCategory  Quantity  GrossAmount  NetAmount Textbox7  ProductID        ProductDesc  Quantity1  GrossAmount1  NetAmount1 Textbox29   Textbox82
+0    Drink     180093     932216.18   887824.94    31.57%  Cold Drinks      9541     49101.89    46763.7    1.66%     210505               7 Up         31          0.00        0.00        0%  2811975.72
+1    Drink     180093     932216.18   887824.94    31.57%  Cold Drinks      9541     49101.89    46763.7    1.66%     497700  Apple Juice - Reg          1         14.00       13.33        0%  2811975.72
+2    Drink     180093     932216.18   887824.94    31.57%  Cold Drinks      9541     49101.89    46763.7    1.66%     481200      Classic Lassi         19         48.06       45.77        0%  2811975.72
+
+======================================================================
+FILE: Sales By Order Type Per Month Report.csv
+======================================================================
+Encoding=utf-8-sig, Skip=0, Shape=(5, 15)
+Columns: ['textbox8', 'LocationID', 'textbox12', 'textbox13', 'textbox14', 'textbox15', 'Textbox19', 'OrderTypeID', 'Year', 'Month', 'NoOfOrders', 'NetAmount', 'VATAmount', 'GrossAmount', 'Textbox20']
+     textbox8         LocationID  textbox12   textbox13  textbox14   textbox15  Textbox19 OrderTypeID  Year  Month  NoOfOrders  NetAmount  VATAmount  GrossAmount  Textbox20
+0  Tax Amount  IRise Tower-Dubai     103213  2811975.72  140626.77  2952602.49      27.24  Collection  2024      1           1      16.19       0.81        17.00      16.19
+1  Tax Amount  IRise Tower-Dubai     103213  2811975.72  140626.77  2952602.49      27.24    Delivery  2024      1         722   23233.32    1161.67     24394.99      32.18
+2  Tax Amount  IRise Tower-Dubai     103213  2811975.72  140626.77  2952602.49      27.24      Eat In  2024      1         775   22320.02    1116.00     23436.02      28.80
+
+======================================================================
+FILE: Sales by Product.csv
+======================================================================
+Encoding=utf-8-sig, Skip=0, Shape=(5, 34)
+Columns: ['Category', 'SubCategory', 'ProductCode', 'ProductDesc', 'QuantityEatIn', 'GrossAmountEatIn', 'NetAmountEatIn', 'Textbox65', 'QuantityEatOut', 'GrossAmountEatOut', 'NetAmountEatOut', 'Textbox68', 'QuantityDelivery', 'GrossAmountDelivery', 'NetAmountDelivery', 'Textbox74', 'Quantity', 'GrossAmount', 'Cost', 'QuantityW', 'WasteCost', 'NetAmount', 'CostIncWaste', 'Textbox15', 'GP', 'Textbox5', 'Textbox60', 'Textbox72', 'Textbox54', 'Textbox75', 'Textbox76', 'Textbox77', 'Textbox19', 'Textbox23']
+  Category  SubCategory  ProductCode  ProductDesc  QuantityEatIn  GrossAmountEatIn  NetAmountEatIn Textbox65  QuantityEatOut  GrossAmountEatOut  NetAmountEatOut Textbox68  QuantityDelivery  GrossAmountDelivery  NetAmountDelivery Textbox74  Quantity  GrossAmount  Cost  QuantityW  WasteCost  NetAmount  CostIncWaste Textbox15     GP Textbox5  Textbox60  Textbox72  Textbox54  Textbox75   Textbox76   Textbox77   Textbox19   Textbox23
+0      NaN          NaN          NaN          NaN              0               0.0            0.00        0%               0                0.0              0.0        0%                 0                  0.0                0.0        0%      3953          0.0   0.0        NaN        0.0       0.00           0.0        0%   0.00      NaN  855278.54  814536.69  579163.82  551581.48  1518152.03  1445849.83  2952602.49  2811975.72
+1    Drink  Cold Drinks          NaN         7 Up             26               0.0            0.00        0%               3                0.0              0.0        0%                 2                  0.0                0.0        0%        31          0.0   0.0        NaN        0.0       0.00           0.0        0%   0.00      NaN  855278.54  814536.69  579163.82  551581.48  1518152.03  1445849.83  2952602.49  2811975.72
+2    Drink  Cold Drinks          NaN  Apple Juice              1              14.0           13.33        0%               0                0.0              0.0        0%                 0                  0.0                0.0        0%         1         14.0   0.0        NaN        0.0      13.33           0.0        0%  13.33     100%  855278.54  814536.69  579163.82  551581.48  1518152.03  1445849.83  2952602.49  2811975.72
+
+======================================================================
+FILE: TotalSalesByDate.csv
+======================================================================
+Encoding=utf-8-sig, Skip=0, Shape=(5, 31)
+Columns: ['BillingDate', 'Numberoftransactions', 'GrossAmount', 'Textbox88', 'Textbox52', 'Textbox58', 'Textbox64', 'NetAmount', 'TotalVAT', 'Textbox70', 'Textbox76', 'Textbox82', 'Textbox21', 'Textbox34', 'Textbox35', 'Textbox46', 'Textbox39', 'Textbox40', 'Textbox92', 'Textbox56', 'Textbox62', 'Textbox68', 'Textbox41', 'Textbox42', 'Textbox74', 'Textbox80', 'Textbox86', 'Textbox43', 'Textbox44', 'Textbox47', 'Textbox50']
+  BillingDate  Numberoftransactions  GrossAmount  Textbox88  Textbox52  Textbox58  Textbox64  NetAmount  TotalVAT  Textbox70  Textbox76  Textbox82  Textbox21  Textbox34  Textbox35  Textbox46  Textbox39   Textbox40  Textbox92  Textbox56  Textbox62   Textbox68   Textbox41  Textbox42  Textbox74  Textbox80  Textbox86  Textbox43  Textbox44   Textbox47  Textbox50
+0  01/01/2024                    55      2115.90        0.0     445.30     309.25    1361.35    2015.14    100.76      21.20      14.73      64.83        NaN        NaN    1465.75        NaN     103213  2952602.49        0.0  855278.54  579163.82  1518152.03  2811975.72  140626.77   40741.85   27582.34    72302.2        NaN        NaN  1536717.52        NaN
+1  02/01/2024                    92      2152.98        0.0     869.80     588.63     694.55    2050.46    102.52      41.42      28.03      33.07        NaN        NaN     694.55        NaN     103213  2952602.49        0.0  855278.54  579163.82  1518152.03  2811975.72  140626.77   40741.85   27582.34    72302.2        NaN        NaN  1536717.52        NaN
+2  03/01/2024                   108      2267.64        0.0     665.04     748.80     853.80    2159.66    107.98      31.67      35.66      40.66        NaN        NaN     853.80        NaN     103213  2952602.49        0.0  855278.54  579163.82  1518152.03  2811975.72  140626.77   40741.85   27582.34    72302.2        NaN        NaN  1536717.52        NaN
+
+======================================================================
+FILE: Transactions List.csv
+======================================================================
+Encoding=utf-8-sig, Skip=0, Shape=(5, 13)
+Columns: ['Textbox16', 'Name', 'Textbox11', 'Textbox3', 'Textbox15', 'Textbox17', 'CreationTime', 'Textbox19', 'PaymentType', 'Service', 'PaymentStationID', 'IsSendBack', 'Textbox25']
+  Textbox16           Name  Textbox11  Textbox3  Textbox15  Textbox17      CreationTime         Textbox19 PaymentType  Service PaymentStationID IsSendBack  Textbox25
+0       Tax       Eat In 7  159005702      33.1      31.52       1.58  02/28/2026 23:41  02/28/2026 23:41        Card      0.0  IRise Tower ST1         No        0.0
+1       Tax  Delivery 3332  159005202      36.0      34.29       1.71  02/28/2026 23:29  02/28/2026 23:29      Careem      0.0  IRise Tower ST1         No        0.0
+2       Tax       Eat In 5  159004702       8.0       7.62       0.38  02/28/2026 23:26  02/28/2026 23:26        Card      0.0  IRise Tower ST1         No        0.0

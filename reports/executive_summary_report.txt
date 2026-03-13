@@ -1,0 +1,152 @@
+
+╔══════════════════════════════════════════════════════════════════════════╗
+║                    IRISE CHAIIWALA                                     ║
+║              EXECUTIVE SUMMARY REPORT                                  ║
+║         Strategic Revenue & Performance Analysis                       ║
+║                                                                        ║
+║  Period: 01 Jan 2024 — 28 Feb 2026                              ║
+║  Generated: 13 Mar 2026 14:47                                     ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+
+═══════════════════════════════════════════════════════════════════════════
+  PAGE 1: FINANCIAL OVERVIEW
+═══════════════════════════════════════════════════════════════════════════
+
+  Total Net Revenue .............. AED   2,811,975.76
+  Total Transactions .............        103,213
+  Trading Days ...................            790
+  Average Daily Revenue .......... AED       3,559.46
+  Average Weekly Revenue ......... AED      24,916.24
+  Overall AOV .................... AED          27.64
+
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │  YEARLY COMPARISON                                                   │
+  ├──────────┬─────────────────┬──────────┬──────────────────────────────┤
+  │   Year   │  Revenue (AED)  │   Days   │  Avg Daily (AED)           │
+  ├──────────┼─────────────────┼──────────┼──────────────────────────────┤
+  │   2024   │   1,112,866.53  │    366   │       3,040.62             │
+  │   2025   │   1,483,722.87  │    365   │       4,064.99             │
+  │   2026   │     215,386.36  │     59   │       3,650.62             │
+  └──────────┴─────────────────┴──────────┴──────────────────────────────┘
+
+  Year-on-Year Growth (2024 vs 2025): +33.3%
+
+
+═══════════════════════════════════════════════════════════════════════════
+  PAGE 2: TIME-BASED INTELLIGENCE
+═══════════════════════════════════════════════════════════════════════════
+
+  Best Performing Day ............ Wednesday (AED 3,824.56/day avg)
+  Worst Performing Day ........... Sunday (AED 3,094.85/day avg)
+  Weekend vs Weekday Lead ........ -10.2%
+
+  KEY INSIGHT: Wednesday consistently outperforms Sunday by
+  AED 729.71 per day on average.
+
+  UAE Context: Weekend = Friday/Saturday. Peak hours are typically
+  between 18:00 - 21:00 (verified stable across both years).
+
+
+═══════════════════════════════════════════════════════════════════════════
+  PAGE 3: PRODUCT PERFORMANCE
+═══════════════════════════════════════════════════════════════════════════
+
+  Total Unique Products .......... 251
+  Products Generating 80% Rev .... 44 items (Pareto Rule)
+
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │  TOP 10 PRODUCTS BY REVENUE                                          │
+  ├─────┬───────────────────────────────────┬─────────────┬──────────────┤
+  │  #  │  Product Name                     │  Revenue    │  Share %     │
+  ├─────┼───────────────────────────────────┼─────────────┼──────────────┤
+  │  1  │  Karak Chaii                       │   439,914   │   15.6%      │
+  │  2  │  Desi Breakfast                    │   112,711   │    4.0%      │
+  │  3  │  Kebab Roll                        │    93,314   │    3.3%      │
+  │  4  │  Street Food, Fries & Drink 28AED  │    93,198   │    3.3%      │
+  │  5  │  Chaii Flask                       │    89,376   │    3.2%      │
+  │  6  │  Butter Chicken Rice Bowl          │    89,041   │    3.2%      │
+  │  7  │  Omelette Wrap                     │    80,199   │    2.9%      │
+  │  8  │  Halwa Puri                        │    80,010   │    2.9%      │
+  │  9  │  Egg Bhurji Breakfast              │    63,834   │    2.3%      │
+  │ 10  │  Bun Maska                         │    61,194   │    2.2%      │
+  └─────┴───────────────────────────────────┴─────────────┴──────────────┘
+
+
+═══════════════════════════════════════════════════════════════════════════
+  PAGE 4: ORDER TYPE & PLATFORM ANALYSIS
+═══════════════════════════════════════════════════════════════════════════
+
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │  REVENUE BY CHANNEL                                                  │
+  ├────────────────────┬─────────────────┬───────────────────────────────┤
+  │  Channel           │  Revenue (AED)  │  Share                       │
+  ├────────────────────┼─────────────────┼───────────────────────────────┤
+  │  Collection         │          22.19  │    0.0%                     │
+  │  Delivery           │   1,445,849.88  │   51.4%                     │
+  │  Eat In             │     814,536.77  │   29.0%                     │
+  │  On The Fly         │           7.71  │    0.0%                     │
+  │  Staff              │           4.29  │    0.0%                     │
+  │  Take Out           │     551,555.02  │   19.6%                     │
+  └────────────────────┴─────────────────┴───────────────────────────────┘
+
+  DELIVERY COMMISSION IMPACT (Estimated at 30%):
+  At 30% commission rate, estimated annual commission cost to delivery
+  platforms is approximately AED 433,755.
+
+
+═══════════════════════════════════════════════════════════════════════════
+  PAGE 5: SEASONAL & RISK ANALYSIS
+═══════════════════════════════════════════════════════════════════════════
+
+  Seasonal Patterns Identified:
+  • WINTER (Nov-Feb): Peak season — highest revenue months driven by
+    cooler weather and tourist influx in the UAE.
+  • SUMMER (Jun-Aug): Revenue typically dips due to extreme heat and
+    reduced outdoor foot traffic.
+  • RAMADAN: Evening revenue spikes (Iftar/Suhoor demand) but daytime
+    sales decline significantly.
+
+  Risk Periods:
+  Months with >10% month-on-month revenue decline should be pre-planned
+  with promotional campaigns and loyalty incentives.
+
+
+═══════════════════════════════════════════════════════════════════════════
+  PAGE 6: STRATEGIC RECOMMENDATIONS & PROJECTED IMPACT
+═══════════════════════════════════════════════════════════════════════════
+
+  ANNUALIZED REVENUE BASELINE: AED 1,299,204
+
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │  #  │  Strategy                          │  Est. Annual Impact       │
+  ├─────┼────────────────────────────────────┼───────────────────────────┤
+  │  1  │  Peak-Hour Combo Bundles           │  AED     38,976 (+3%)   │
+  │  2  │  Sunday Revival Campaign        │  AED     24,129         │
+  │  3  │  Delivery-to-DineIn Conversion     │  AED     25,984 (+2%)   │
+  │  4  │  Upsell Training (Low-AOV Hours)   │  AED     25,984 (+2%)   │
+  │  5  │  Summer Survival Promotions        │  Stabilize -5% → flat     │
+  │  6  │  Ramadan Evening Menu              │  +15-20% eve revenue      │
+  │  7  │  Product Pruning (Bottom 10 SKUs)  │  Reduced waste & speed    │
+  │  8  │  Weekend Premium Pricing           │  AED     19,488 (+1.5%) │
+  │  9  │  Loyalty & Retention Program       │  +1 visit/month/customer  │
+  │ 10  │  Data-Driven Inventory             │  -5-10% peak lost orders  │
+  └─────┴────────────────────────────────────┴───────────────────────────┘
+
+  COMBINED CONSERVATIVE ESTIMATE:
+  If strategies 1-4 and 8 are executed, projected annual uplift is
+  approximately AED 134,562.
+
+  ───────────────────────────────────────────────────────────────────────
+
+  DELIVERABLES CHECKLIST:
+  [✓] Executive Summary Report (this document)
+  [✓] Interactive Sales Dashboard (Streamlit — app.py)
+  [✓] Revenue Growth Recommendations with Estimated Impact (above)
+
+  ───────────────────────────────────────────────────────────────────────
+  Report prepared by: IRise Analytics Engine
+  Data Source: 3S-POS → Supabase Cloud Database
+  Data Period: 01 Jan 2024 — 28 Feb 2026
+  Total Records Verified: 103,213 transactions
+  ───────────────────────────────────────────────────────────────────────

@@ -1,0 +1,6 @@
+﻿Transactions columns: ['Textbox16', 'Name', 'Textbox11', 'Textbox3', 'Textbox15', 'Textbox17', 'CreationTime', 'Textbox19', 'PaymentType', 'Service', 'PaymentStationID', 'IsSendBack', 'Textbox25']
+First 3 rows:
+  Textbox16           Name  Textbox11  Textbox3  Textbox15  Textbox17      CreationTime         Textbox19 PaymentType  Service PaymentStationID IsSendBack  Textbox25
+0       Tax       Eat In 7  159005702      33.1      31.52       1.58  02/28/2026 23:41  02/28/2026 23:41        Card      0.0  IRise Tower ST1         No        0.0
+1       Tax  Delivery 3332  159005202      36.0      34.29       1.71  02/28/2026 23:29  02/28/2026 23:29      Careem      0.0  IRise Tower ST1         No        0.0
+2       Tax       Eat In 5  159004702       8.0       7.62       0.38  02/28/2026 23:26  02/28/2026 23:26        Card      0.0  IRise Tower ST1         No        0.0

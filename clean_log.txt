@@ -1,0 +1,117 @@
+﻿=======================================================
+  IRise Chaiiwala ù Phase 1: Data Cleaning
+=======================================================
+py : Traceback (most recent call last):
+At line:1 char:1
++ py 01_clean_data.py 2>&1 | Out-File 
+C:\Users\GEO\Desktop\IRise\clean_ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Tr 
+   aceback (most recent call last)::String) []  
+  , RemoteException
+    + FullyQualifiedErrorId : NativeCommandErro 
+   r
+ 
+  File "C:\Users\GEO\AppData\Local\Programs\Pyth
+on\Python312\Lib\site-packages\pandas\core\ops\a
+rray_ops.py", line 218, in _na_arithmetic_op
+    result = func(left, right)
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\GEO\AppData\Local\Programs\Pyth
+on\Python312\Lib\site-packages\pandas\core\compu
+tation\expressions.py", line 242, in evaluate
+    return _evaluate(op, op_str, a, b)  # type: 
+ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GEO\AppData\Local\Programs\Pyth
+on\Python312\Lib\site-packages\pandas\core\compu
+tation\expressions.py", line 73, in 
+_evaluate_standard
+    return op(a, b)
+           ^^^^^^^^
+TypeError: unsupported operand type(s) for /: 
+'str' and 'str'
+
+During handling of the above exception, another 
+exception occurred:
+
+Traceback (most recent call last):
+  File 
+"C:\Users\GEO\Desktop\IRise\01_clean_data.py", 
+line 302, in <module>
+    dfs['daily']            = 
+clean_daily_sales()
+                              
+^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\GEO\Desktop\IRise\01_clean_data.py", 
+line 44, in clean_daily_sales
+    df['aov']         = (df['net_amount'] / 
+df['transactions']).round(2)
+                         
+~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+  File "C:\Users\GEO\AppData\Local\Programs\Pyth
+on\Python312\Lib\site-packages\pandas\core\ops\c
+ommon.py", line 76, in new_method
+    return method(self, other)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GEO\AppData\Local\Programs\Pyth
+on\Python312\Lib\site-packages\pandas\core\array
+like.py", line 210, in __truediv__
+    return self._arith_method(other, 
+operator.truediv)
+           
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GEO\AppData\Local\Programs\Pyth
+on\Python312\Lib\site-packages\pandas\core\serie
+s.py", line 6154, in _arith_method
+    return 
+base.IndexOpsMixin._arith_method(self, other, 
+op)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^
+  File "C:\Users\GEO\AppData\Local\Programs\Pyth
+on\Python312\Lib\site-packages\pandas\core\base.
+py", line 1391, in _arith_method
+    result = ops.arithmetic_op(lvalues, 
+rvalues, op)
+             
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GEO\AppData\Local\Programs\Pyth
+on\Python312\Lib\site-packages\pandas\core\ops\a
+rray_ops.py", line 283, in arithmetic_op
+    res_values = _na_arithmetic_op(left, right, 
+op)  # type: ignore[arg-type]
+                 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GEO\AppData\Local\Programs\Pyth
+on\Python312\Lib\site-packages\pandas\core\ops\a
+rray_ops.py", line 227, in _na_arithmetic_op
+    result = _masked_arith_op(left, right, op)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GEO\AppData\Local\Programs\Pyth
+on\Python312\Lib\site-packages\pandas\core\ops\a
+rray_ops.py", line 163, in _masked_arith_op
+    result[mask] = op(xrav[mask], yrav[mask])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported operand type(s) for /: 
+'str' and 'str'
+
+During handling of the above exception, another 
+exception occurred:
+
+Traceback (most recent call last):
+  File 
+"C:\Users\GEO\Desktop\IRise\01_clean_data.py", 
+line 328, in <module>
+    print(f"\n\u274c Error: {e}")
+  File "C:\Users\GEO\AppData\Local\Programs\Pyth
+on\Python312\Lib\encodings\cp1252.py", line 19, 
+in encode
+    return codecs.charmap_encode(input,self.erro
+rs,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't 
+encode character '\u274c' in position 2: 
+character maps to <undefined>

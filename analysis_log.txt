@@ -1,0 +1,169 @@
+﻿=======================================================
+  IRise Chaiiwala ΓÇö Sales Analysis (Phases 2ΓÇô8)
+=======================================================
+
+ΓöÇΓöÇ PHASE 2: Sales Performance Overview ΓöÇΓöÇ
+  Total Net Revenue  : AED 1,103,984.92
+  Total Transactions : 40,334
+  Overall AOV        : AED 27.81
+  Avg Daily Revenue  : AED 3538.41
+  Avg Weekly Revenue : AED 34499.53
+  Date Range         : 2024-01-01 ΓåÆ 2026-12-02
+
+  YoY Growth (same months): -79.5%
+
+  Yearly Summary:
+ year   revenue  transactions  trading_days   avg_aov
+ 2024 432843.49         17389           144 25.348333
+ 2025 582431.88         19933           144 29.840903
+ 2026  88709.55          3012            24 30.392500
+  [Γ£ô] Saved monthly_revenue.csv, yearly_summary.csv
+
+ΓöÇΓöÇ PHASE 3: Time-Based Analysis ΓöÇΓöÇ
+  Best day : Tuesday  |  Worst day: Saturday
+      day  avg_revenue   avg_aov
+   Monday  3513.404348 27.945652
+  Tuesday  3633.635111 27.793333
+Wednesday  3546.918043 28.223696
+ Thursday  3502.088444 27.329556
+   Friday  3535.656591 28.192727
+ Saturday  3468.234048 27.599524
+   Sunday  3565.177500 27.561136
+
+  Avg Weekday Rev : AED 3,548.80
+  Avg Weekend Rev : AED 3,523.87
+
+  Peak hour: 13:00  |  Slowest hour: 3:00
+  [Γ£ô] Saved day_of_week_revenue.csv, hourly_revenue.csv
+
+ΓöÇΓöÇ PHASE 4: Product Performance ΓöÇΓöÇ
+  Items generating 80% of revenue: 44 out of 241
+
+  Top 10 Products by Revenue:
+                    product_name  total_qty  total_net  revenue_pct
+                     Karak Chaii      98548  439914.21        15.64
+                  Desi Breakfast       4302  112711.18         4.01
+                      Kebab Roll       6804   93313.94         3.32
+Street Food, Fries & Drink 28AED       3571   93198.20         3.31
+                     Chaii Flask       2878   89376.20         3.18
+        Butter Chicken Rice Bowl       4021   89041.07         3.17
+                   Omelette Wrap       5755   80198.80         2.85
+                      Halwa Puri       3149   80010.45         2.85
+            Egg Bhurji Breakfast       3586   63833.81         2.27
+                       Bun Maska       5959   61194.36         2.18
+
+  Bottom 10 Products by Revenue:
+          product_name  total_qty  total_net  revenue_pct
+ Extra Pani Puri Chana          1       7.62          0.0
+           Kids Drinks          1       7.62          0.0
+            Kids Apple          1       7.62          0.0
+         Britvic Tonic          1       6.20          0.0
+          Beans & Daal          1       5.71          0.0
+     Saffron Milk Cake          2       4.97          0.0
+Pistachios and almonds         11       2.99          0.0
+           Tareli Roti          1       2.42          0.0
+            Strawberry          1       1.90          0.0
+         Chilli Powder          2       0.36          0.0
+
+  Significantly Declining Products (>10% drop):
+product_name
+Green Chillies               -100.0
+Tomatoes                     -100.0
+Chaii Flask                   -99.5
+Keema Bowl                    -99.4
+Karachi Bun, Fries & Drink    -95.6
+Chicken Kathi Roll            -95.4
+Cream                         -95.3
+Iced Karak Coffee             -94.3
+Loaded Fries                  -94.3
+Momo Combo                    -91.3
+
+  Significantly Growing Products (>10% rise):
+product_name
+Add Passion Fruit Syrup(with Lemonade)    57.8
+Iftaari Box                               36.0
+  [Γ£ô] Saved product_ranking.csv, top10, bottom10, yoy_growth
+
+ΓöÇΓöÇ PHASE 5: AOV Analysis ΓöÇΓöÇ
+  Overall AOV: AED 27.81
+
+  AOV by Day of Week:
+      day   avg_aov
+   Friday 28.192727
+   Monday 27.945652
+ Saturday 27.599524
+   Sunday 27.561136
+ Thursday 27.329556
+  Tuesday 27.793333
+Wednesday 28.223696
+
+  Hours with AOV >15% below avg (upsell opportunities): [3, 5, 6]
+
+  AOV by Order Type:
+order_type       aov
+Collection 11.095000
+  Delivery 38.234324
+    Eat In 30.949386
+On The Fly  7.710000
+     Staff  4.290000
+  Take Out 14.307105
+  [Γ£ô] Saved aov_by_day.csv, aov_by_order_type.csv
+
+ΓöÇΓöÇ PHASE 6: Order Type & Platform Analysis ΓöÇΓöÇ
+
+  Revenue Split by Order Type:
+order_type    revenue  transactions  revenue_pct
+Collection      22.19             2          0.0
+  Delivery 1445849.88         37317         51.4
+    Eat In  814536.77         26732         29.0
+On The Fly       7.71             1          0.0
+     Staff       4.29             1          0.0
+  Take Out  551555.02         39160         19.6
+
+  Delivery Platform Breakdown:
+payment_type  orders   revenue
+     Talabat   15894 634927.30
+      Careem    9446 346774.52
+   Deliveroo    5600 244878.44
+        Noon    5577 189229.56
+       Keeta     245   9623.09
+      Smiles     265   8940.68
+        Card       7    156.94
+        Cash       1      1.90
+  [Γ£ô] Saved order_type_split.csv, delivery_platforms.csv
+
+ΓöÇΓöÇ PHASE 7: Seasonal & Trend Analysis ΓöÇΓöÇ
+
+  Ramadan Revenue Analysis:
+  Ramadan 2024: AED 28,926.11  |  AOV: AED 24.51
+  Ramadan 2025: AED 49,926.66  |  AOV: AED 28.92
+
+  Risk months (>20% below avg): []
+  Peak months (>15% above avg): []
+  [Γ£ô] Saved monthly_heatmap.csv, year_overlay.csv
+
+ΓöÇΓöÇ PHASE 8: Strategic Simulations ΓöÇΓöÇ
+
+  AOV Uplift Simulation (per year, ~365 days):
+    +5% AOV ΓåÆ extra AED 65,611/year
+    +10% AOV ΓåÆ extra AED 131,222/year
+
+  Improving Saturday to weekly average:
+    Extra revenue/year: AED 3,621
+
+  Strategic Recommendations:
+    1. Upsell combos during low-AOV hours (identified in Phase 5)
+    2. Push highest-AOV order type via promotions
+    3. Activate Saturday with targeted offer/discount event
+    4. Remove/rebundle lowest-revenue menu items
+    5. Pre-Ramadan campaign to capture early spend
+    6. Introduce loyalty incentives to increase visit frequency
+    7. Shift delivery customers to direct ordering (reduce commission)
+    8. Bundle bottom-10 items into promotional meal deals
+    9. Apply dynamic pricing during peak hours
+    10. Launch weekday lunch promotion to offset morning slow period
+  [Γ£ô] Saved strategic_recommendations.txt
+
+=======================================================
+  Γ£à  All analysis complete ΓÇö reports saved to reports/
+=======================================================

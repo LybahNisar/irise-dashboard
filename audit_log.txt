@@ -1,0 +1,150 @@
+﻿
+============================================================
+  1. DAILY SALES (daily_sales.csv)
+============================================================
+
+--- daily_sales (312 rows) ---
+  Shape: (312, 15)
+  Missing values: NONE
+  Duplicates: NONE
+  Outliers in 'transactions': NONE  (range: 50.00 - 189.00)
+  Outliers in 'gross_amount': NONE  (range: 1338.35 - 6139.96)
+  Outliers in 'net_amount': NONE  (range: 1274.62 - 5847.58)
+  Outliers in 'tax_amount': NONE  (range: 63.73 - 292.38)
+  [FLAG] Statistical outliers (3xIQR) in 'cash': 2 rows | range [37.50 - 1141.10] | expected [-371.50 - 1049.28]
+  Outliers in 'card': NONE  (range: 282.10 - 2984.50)
+  Outliers in 'other': NONE  (range: 154.50 - 3888.35)
+  Outliers in 'aov': NONE  (range: 17.94 - 42.67)
+  [FLAG] Future dates in 'date': 18 dates after today (2026-03-05)
+  Date range: 2024-01-01 -> 2026-12-02
+  Gross >= Net check: OK
+  Gross = Net + Tax reconciliation: OK
+  AOV range check (AED 5-500): OK
+  Note: 755 calendar days with no sales record (closures/holidays):
+    First few: ['2024-01-13', '2024-01-14', '2024-01-15', '2024-01-16', '2024-01-17']
+
+============================================================
+  2. HOURLY SALES (hourly_sales.csv)
+============================================================
+
+--- hourly_sales (18960 rows) ---
+  Shape: (18960, 7)
+  Missing values: NONE
+  Duplicates: NONE
+  Outliers in 'net_amount': NONE  (range: 83.10 - 285851.47)
+  Outliers in 'transactions': NONE  (range: 6.00 - 9683.00)
+  [FLAG] Statistical outliers (3xIQR) in 'aov': 790 rows | range [13.42 - 46.89] | expected [12.82 - 44.49]
+  Date range: 2024-01-01 -> 2026-02-28
+  Hour range (0-23): OK
+
+============================================================
+  3. PRODUCT SALES (product_sales.csv)
+============================================================
+
+--- product_sales (110979 rows) ---
+  Shape: (110979, 10)
+  Missing values: NONE
+  [FLAG] Duplicate rows in 'ALL': 5 duplicate rows found
+  [FLAG] Statistical outliers (3xIQR) in 'quantity': 7506 rows | range [1.00 - 214.00] | expected [-5.00 - 9.00]
+  Note: 16758 zero values in 'net_amount' (may be expected)
+  [FLAG] Statistical outliers (3xIQR) in 'net_amount': 4094 rows | range [0.00 - 939.05] | expected [-71.61 - 104.37]
+  Note: 16758 zero values in 'gross_amount' (may be expected)
+  [FLAG] Statistical outliers (3xIQR) in 'gross_amount': 4094 rows | range [0.00 - 986.00] | expected [-75.20 - 109.60]
+  Date range: 2024-01-01 -> 2026-02-28
+  Blank product names: NONE
+  [FLAG] Unexpected order type values in 'order_type': ['Waste']
+  Unique products: 238
+  Unique order types: ['Delivery', 'Eat In', 'Take Out', 'Collection', 'Staff', 'On The Fly', 'Waste']
+
+============================================================
+  4. ORDER TYPE DAILY (order_type_daily.csv)
+============================================================
+
+--- order_type_daily (2374 rows) ---
+  Shape: (2374, 8)
+  Missing values: NONE
+  Duplicates: NONE
+  Outliers in 'transactions': NONE  (range: 1.00 - 93.00)
+  Outliers in 'net_amount': NONE  (range: 4.29 - 4086.05)
+  Outliers in 'gross_amount': NONE  (range: 4.50 - 4290.35)
+  Date range: 2024-01-01 -> 2026-02-28
+
+============================================================
+  5. TRANSACTIONS (transactions.csv)
+============================================================
+
+--- transactions (102666 rows) ---
+  Shape: (102666, 13)
+  Missing values: NONE
+  [FLAG] Duplicate rows in 'ALL': 12 duplicate rows found
+  Note: 59 zero values in 'gross_amount' (may be expected)
+  [FLAG] Statistical outliers (3xIQR) in 'gross_amount': 1464 rows | range [0.00 - 1170.00] | expected [-64.95 - 111.80]
+  Note: 59 zero values in 'net_amount' (may be expected)
+  [FLAG] Statistical outliers (3xIQR) in 'net_amount': 1464 rows | range [0.00 - 1114.29] | expected [-61.83 - 106.45]
+  Note: 62 zero values in 'tax_amount' (may be expected)
+  [FLAG] Statistical outliers (3xIQR) in 'tax_amount': 1434 rows | range [0.00 - 55.71] | expected [-3.12 - 5.35]
+  Date range: 2024-01-01 -> 2026-02-28
+  Transactions outside AED 1-2000: 76 rows
+    Min: 0.00  Max: 1114.29
+  Unique payment types: 12
+  Payment types: ['Card', 'Careem', 'CareemPay', 'Cash', 'Deliveroo', 'Keeta', 'Multiple', 'Noon', 'Smiles', 'Talabat', 'Zomato', 'Zomato Pay']
+
+============================================================
+  6. PRODUCT SUMMARY (product_summary.csv)
+============================================================
+
+--- product_summary (251 rows) ---
+  Shape: (251, 12)
+  Missing values: NONE
+  Duplicates: NONE
+  [FLAG] Statistical outliers (3xIQR) in 'total_qty': 20 rows | range [1.00 - 98539.00] | expected [-3485.00 - 4673.50]
+  Note: 36 zero values in 'total_net' (may be expected)
+  [FLAG] Statistical outliers (3xIQR) in 'total_net': 12 rows | range [0.00 - 439914.21] | expected [-35372.35 - 47225.31]
+  Note: 36 zero values in 'total_gross' (may be expected)
+  [FLAG] Statistical outliers (3xIQR) in 'total_gross': 12 rows | range [0.00 - 461909.92] | expected [-37140.95 - 49586.57]
+
+============================================================
+  7. CROSS-FILE VALIDATION
+============================================================
+  daily_sales total    : AED 1,103,984.92
+  order_type_daily total: AED 2,811,975.86
+  Difference           : 154.71%
+  [FLAG] Daily vs Order Type total mismatch in 'net_amount': 154.71% difference
+
+  daily_sales transactions    : 40,334
+  order_type_daily transactions: 103,213
+  Difference                  : 155.90%
+
+============================================================
+  AUDIT SUMMARY
+============================================================
+
+  Total issues found: 16
+
+           file       column                            problem                                                               detail
+    daily_sales         cash       Statistical outliers (3xIQR)      2 rows | range [37.50 - 1141.10] | expected [-371.50 - 1049.28]
+    daily_sales         date                       Future dates                                    18 dates after today (2026-03-05)
+   hourly_sales          aov       Statistical outliers (3xIQR)          790 rows | range [13.42 - 46.89] | expected [12.82 - 44.49]
+  product_sales          ALL                     Duplicate rows                                               5 duplicate rows found
+  product_sales     quantity       Statistical outliers (3xIQR)          7506 rows | range [1.00 - 214.00] | expected [-5.00 - 9.00]
+  product_sales   net_amount       Statistical outliers (3xIQR)       4094 rows | range [0.00 - 939.05] | expected [-71.61 - 104.37]
+  product_sales gross_amount       Statistical outliers (3xIQR)       4094 rows | range [0.00 - 986.00] | expected [-75.20 - 109.60]
+  product_sales   order_type       Unexpected order type values                                                            ['Waste']
+   transactions          ALL                     Duplicate rows                                              12 duplicate rows found
+   transactions gross_amount       Statistical outliers (3xIQR)      1464 rows | range [0.00 - 1170.00] | expected [-64.95 - 111.80]
+   transactions   net_amount       Statistical outliers (3xIQR)      1464 rows | range [0.00 - 1114.29] | expected [-61.83 - 106.45]
+   transactions   tax_amount       Statistical outliers (3xIQR)           1434 rows | range [0.00 - 55.71] | expected [-3.12 - 5.35]
+product_summary    total_qty       Statistical outliers (3xIQR)    20 rows | range [1.00 - 98539.00] | expected [-3485.00 - 4673.50]
+product_summary    total_net       Statistical outliers (3xIQR) 12 rows | range [0.00 - 439914.21] | expected [-35372.35 - 47225.31]
+product_summary  total_gross       Statistical outliers (3xIQR) 12 rows | range [0.00 - 461909.92] | expected [-37140.95 - 49586.57]
+     cross-file   net_amount Daily vs Order Type total mismatch                                                   154.71% difference
+
+  Issues saved to reports/data_quality_issues.csv
+
+  Records audited:
+    daily_sales     : 312 rows
+    hourly_sales    : 18,960 rows
+    product_sales   : 110,979 rows
+    order_type_daily: 2,374 rows
+    transactions    : 102,666 rows
+    product_summary : 251 rows

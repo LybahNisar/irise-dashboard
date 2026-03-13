@@ -1,0 +1,228 @@
+﻿py : 
+C:\Users\GEO\Desktop\IRise\deep_audit.py:23: 
+UserWarning: The argument 
+'infer_datetime_format' is deprecated and will 
+be removed in a future version. A strict 
+version of it is now the default, see https://pa
+ndas.pydata.org/pdeps/0004-consistent-to-datetim
+e-parsing.html. You can safely remove this 
+argument.
+At line:1 char:22
++ $env:PYTHONUTF8="1"; py deep_audit.py 2>&1 | 
+Out-File C:\Users\GEO\De ...
++                      ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C: 
+   \Users\GEO\De... this argument.:String) [],  
+   RemoteException
+    + FullyQualifiedErrorId : NativeCommandErro 
+   r
+ 
+  d = pd.to_datetime(series, 
+infer_datetime_format=True, errors='coerce')
+C:\Users\GEO\Desktop\IRise\deep_audit.py:23: 
+UserWarning: The argument 
+'infer_datetime_format' is deprecated and will 
+be removed in a future version. A strict 
+version of it is now the default, see https://pa
+ndas.pydata.org/pdeps/0004-consistent-to-datetim
+e-parsing.html. You can safely remove this 
+argument.
+  d = pd.to_datetime(series, 
+infer_datetime_format=True, errors='coerce')
+C:\Users\GEO\Desktop\IRise\deep_audit.py:23: 
+UserWarning: The argument 
+'infer_datetime_format' is deprecated and will 
+be removed in a future version. A strict 
+version of it is now the default, see https://pa
+ndas.pydata.org/pdeps/0004-consistent-to-datetim
+e-parsing.html. You can safely remove this 
+argument.
+  d = pd.to_datetime(series, 
+infer_datetime_format=True, errors='coerce')
+C:\Users\GEO\Desktop\IRise\deep_audit.py:23: 
+UserWarning: The argument 
+'infer_datetime_format' is deprecated and will 
+be removed in a future version. A strict 
+version of it is now the default, see https://pa
+ndas.pydata.org/pdeps/0004-consistent-to-datetim
+e-parsing.html. You can safely remove this 
+argument.
+  d = pd.to_datetime(series, 
+infer_datetime_format=True, errors='coerce')
+C:\Users\GEO\Desktop\IRise\deep_audit.py:23: 
+UserWarning: The argument 
+'infer_datetime_format' is deprecated and will 
+be removed in a future version. A strict 
+version of it is now the default, see https://pa
+ndas.pydata.org/pdeps/0004-consistent-to-datetim
+e-parsing.html. You can safely remove this 
+argument.
+  d = pd.to_datetime(series, 
+infer_datetime_format=True, errors='coerce')
+C:\Users\GEO\Desktop\IRise\deep_audit.py:23: 
+UserWarning: The argument 
+'infer_datetime_format' is deprecated and will 
+be removed in a future version. A strict 
+version of it is now the default, see https://pa
+ndas.pydata.org/pdeps/0004-consistent-to-datetim
+e-parsing.html. You can safely remove this 
+argument.
+  d = pd.to_datetime(series, 
+infer_datetime_format=True, errors='coerce')
+=================================================================
+  RAW CSV 1: Daily Total Sales By Payment Type.csv
+=================================================================
+  Raw rows: 1581
+  Columns: ['textbox6', 'BillingDate', 'Numberoftransactions', 'GrossAmount', 'NetAmount', 'TotalVAT', 'Textbox21', 'Textbox34', 'Textbox62', 'Textbox46', 'Textbox53', 'Textbox25', 'Textbox26', 'Textbox27', 'Textbox28', 'Textbox22', 'Textbox35', 'Textbox70', 'Textbox30', 'Textbox31', 'Textbox32', 'Textbox33', 'Textbox23', 'Textbox36', 'Textbox78', 'Textbox10', 'Textbox11', 'Textbox12', 'Textbox13', 'Textbox24', 'Textbox37', 'Textbox87', 'Textbox39', 'Textbox40', 'Textbox41', 'Textbox42', 'Textbox43', 'Textbox44', 'Textbox96', 'Textbox50', 'Textbox57']
+  Date format test (BillingDate):
+    %m/%d/%Y: 790 valid dates <-- BEST
+    %d/%m/%Y: 312 valid dates
+    %Y-%m-%d: 0 valid dates
+    mixed: 790 valid dates
+  Valid date rows: 790
+  Unique dates: 790
+  Date range: 2024-01-01 -> 2026-02-28
+  textbox6 unique: ['Tax Amount' 'Numberoftransactions_label' 'Numberoftransactions']
+  GrossAmount sample: {'count': 790.0, 'mean': 3737.47, 'std': 959.19, 'min': 1338.35, '25%': 3122.25, '50%': 3846.36, '75%': 4470.93, 'max': 6139.96}
+  Numberoftransactions sample: {'count': 1580.0, 'mean': 130.6, 'std': 32.9, 'min': 46.0, '25%': 108.0, '50%': 135.0, '75%': 158.0, 'max': 200.0}
+
+=================================================================
+  RAW CSV 2: Transactions List.csv
+=================================================================
+  Raw rows: 103224
+  Columns: ['Textbox16', 'Name', 'Textbox11', 'Textbox3', 'Textbox15', 'Textbox17', 'CreationTime', 'Textbox19', 'PaymentType', 'Service', 'PaymentStationID', 'IsSendBack', 'Textbox25']
+  Date format test (CreationTime):
+    %m/%d/%Y: 0 valid dates
+    %d/%m/%Y: 0 valid dates
+    %Y-%m-%d: 0 valid dates
+    mixed: 103224 valid dates <-- BEST
+  Valid date rows: 103224
+  Unique dates: 790
+  Date range: 2024-01-01 -> 2026-02-28
+  IsSendBack values: {'No': 102666, 'Yes': 558}
+  PaymentType values: {'Card': 49484, 'Talabat': 16019, 'Cash': 15483, 'Careem': 9525, 'Deliveroo': 5657, 'Noon': 5616, 'Zomato Pay': 738, 'Smiles': 270, 'Keeta': 246, 'Multiple': 127, 'CareemPay': 50, 'Zomato': 9}
+  Gross amount (Textbox3) range: 0.00 - 1170.00
+  Zero or negative gross: 59
+
+=================================================================
+  RAW CSV 3: Daily Sales By Order Type.csv
+=================================================================
+  Raw rows: 2374
+  Date format test (BillingDate):
+    %m/%d/%Y: 938 valid dates
+    %d/%m/%Y: 2374 valid dates <-- BEST
+    %Y-%m-%d: 0 valid dates
+    mixed: 938 valid dates
+  Unique dates: 790
+  Date range: 2024-01-01 -> 2026-02-28
+  OrderType unique: ['Delivery', 'Eat In', 'Take Out', 'Collection', 'Staff', 'On The Fly']
+  locationID unique: ['IRise Tower-Dubai']
+
+=================================================================
+  RAW CSV 4: Hourly Sales.csv
+=================================================================
+  Raw rows: 18985
+  Date format test (SalesDate):
+    %m/%d/%Y: 7488 valid dates
+    %d/%m/%Y: 18960 valid dates <-- BEST
+    %Y-%m-%d: 0 valid dates
+    mixed: 7488 valid dates
+  Unique dates: 790
+  Date range: 2024-01-01 -> 2026-02-28
+  Hour range: 0.0 - 23.0
+  Rows with NaN hour: 0
+
+=================================================================
+  RAW CSV 5: Hourly Sales Avg Per Weekday.csv
+=================================================================
+  Raw rows: 193
+  SalesDate (day names): ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'Gross Amount_label', 'Gross Amount']
+  Hour range: 0 - Gross Amount_ChartGroup_label
+
+=================================================================
+  RAW CSV 6: Product Sales By Order Type.csv
+=================================================================
+  Raw rows: 110979
+  Date format test (BillingDate):
+    %m/%d/%Y: 43567 valid dates
+    %d/%m/%Y: 110979 valid dates <-- BEST
+    %Y-%m-%d: 0 valid dates
+    mixed: 43567 valid dates
+  Unique dates: 790
+  Date range: 2024-01-01 -> 2026-02-28
+  OrderType unique: ['Delivery', 'Eat In', 'Take Out', 'Collection', 'Staff', 'On The Fly', 'Waste']
+  Unique products (Textbox27): 241
+  Qty range: 1 - 214
+
+=================================================================
+  RAW CSV 7: Sales by Product.csv
+=================================================================
+  Raw rows: 252
+  Unique products: 241
+  Category unique: ['Drink', 'Food']
+  NetAmount column total: AED 2,811,975.72
+
+=================================================================
+  RAW CSV 8: Sales By Category With Drill Down.csv
+=================================================================
+  Raw rows: 1185
+  Category unique: ['Drink', 'Food', 'Non-Menu', 'Net Amount_label', 'Net Amount']
+  SubCategory unique: 27 subcategories
+
+=================================================================
+  RAW CSV 9: Sales By Order Type Per Month Report.csv
+=================================================================
+  Raw rows: 82
+  Year unique: [2024, 2025, 2026]
+  Month unique: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  OrderTypeID unique: ['Collection', 'Delivery', 'Eat In', 'Take Out', 'Staff', 'On The Fly']
+
+=================================================================
+  RAW CSV 10: TotalSalesByDate.csv
+=================================================================
+  Raw rows: 1581
+  Date format test (BillingDate):
+    %m/%d/%Y: 312 valid dates
+    %d/%m/%Y: 790 valid dates <-- BEST
+    %Y-%m-%d: 0 valid dates
+    mixed: 312 valid dates
+  Unique dates: 790
+  Date range: 2024-01-01 -> 2026-02-28
+  GrossAmount column total: AED 3,055,815.49
+
+=================================================================
+  PROCESSED FILES VERIFICATION
+=================================================================
+  daily_sales.csv: 790 rows | nulls=0 | dups=0
+  hourly_sales.csv: 7488 rows | nulls=0 | dups=0
+  hourly_avg_weekday.csv: 192 rows | nulls=63 | dups=0
+  product_sales.csv: 43548 rows | nulls=0 | dups=0
+  product_summary.csv: 251 rows | nulls=0 | dups=0
+  order_type_daily.csv: 884 rows | nulls=0 | dups=0
+  order_type_monthly.csv: 82 rows | nulls=0 | dups=0
+  transactions.csv: 102578 rows | nulls=0 | dups=0
+  category_summary.csv: 1185 rows | nulls=161 | dups=30
+
+=================================================================
+  CROSS-VALIDATION: Revenue Totals
+=================================================================
+  TotalSalesByDate raw NetAmount total : AED 2,811,975.76
+  daily_sales processed net_amount total: AED 2,811,975.76
+  Difference: 0.00%
+
+  Transactions CSV (filtered): 102,578 individual orders
+  daily_sales transactions sum: 103,213
+  Difference: 0.6% (expected: transactions include all order lines)
+
+  daily_sales date range    : 2024-01-01 -> 2026-02-28
+  daily_sales trading days  : 790
+  Expected (Jan2024-Feb2026): 790 days
+
+  Revenue by year:
+    2024: AED 1,112,866.53  (366 trading days)
+    2025: AED 1,483,722.87  (365 trading days)
+    2026: AED 215,386.36  (59 trading days)
+
+=================================================================
+  AUDIT COMPLETE
+=================================================================

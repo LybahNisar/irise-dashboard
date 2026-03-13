@@ -1,0 +1,46 @@
+﻿=======================================================
+  IRise Chaiiwala - Applying Data Fixes
+=======================================================
+Fixing daily_sales.csv...
+  Removed 0 future-dated rows
+  Saved: 790 rows | 2024-01-01 -> 2026-02-28
+
+Fixing product_sales.csv...
+  Removed 5 duplicate rows
+  Removed 33 waste rows
+  Removed 0 zero-qty/zero-revenue rows
+  Saved: 110941 rows (38 total removed)
+
+Fixing transactions.csv...
+  Removed 12 duplicate rows
+  Removed 76 transactions under AED 1
+  Removed 0 future-dated transactions
+  Saved: 102578 rows (88 total removed)
+
+Fixing order_type_daily.csv...
+  Removed 0 non-order-type rows (grand total rows)
+  Removed 0 future-dated rows
+  Saved: 2374 rows
+
+Fixing product_summary.csv...
+  Removed 0 zero-qty/zero-revenue product summary rows
+  Saved: 251 rows
+
+--- Post-fix cross-file validation ---
+  daily_sales total    : AED 2,811,975.76
+  order_type_daily total: AED 2,811,975.86
+  Difference           : 0.00%
+  Cross-file check: OK (within 5%)
+
+=======================================================
+  All fixes applied. Data is now clean.
+=======================================================
+
+Clean Dataset Summary:
+  daily_sales     : 790 trading days
+  product_sales   : 110941 product-day records
+  transactions    : 102578 individual orders
+  order_type_daily: 2374 order-type-day records
+
+  Total Net Revenue : AED 2,811,975.76
+  Date Range        : 2024-01-01 -> 2026-02-28

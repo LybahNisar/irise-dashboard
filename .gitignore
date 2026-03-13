@@ -1,0 +1,10 @@
+# Sensitive sales data - NEVER push to GitHub
+data/
+*.csv
+*.xlsx
+__pycache__/
+*.pyc
+.env
+venv/
+# Keep config.toml (theme) but exclude secrets
+.streamlit/secrets.toml
